@@ -1,0 +1,26 @@
+Bài toán VD1
+Input:
+    Nhiệt độ -> machine learning -> áp suất.
+    
+    17 vecto nhiệt độ <=> 17 vecto áp suất
+    y = f(x) mà xấp xỉ theo 1 đường thẳng => hồi quy tuyến tính.
+=>  y = f(x) = teta(0) + teta(1)x
+
+    teta(0) để khi x = 0 thì kết quả ko bằng 0
+=> để giải tạo ra hệ phương trình 17 
+    
+    coi teta(0), teta(1) là 1 ma trận
+    và các hệ số là 1 ma trận
+
+xBar là ma trận với [1 x1]
+                    [1 x2]
+                    ...
+A = xT.x
+b = xT.y
+w = A^-1.b
+
+=> w
+output w
+
+VD2
+
